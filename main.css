@@ -1,0 +1,38 @@
+h1 {
+    line-height: 16px;
+    text-align: center;
+}
+
+span {
+    color: green;
+}
+
+div {
+    text-align: center;
+    line-height: 14px;
+    padding: 14px;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+}
+
+input {
+    display: block;
+    margin-bottom: 16px;
+    padding: 12px 14px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+button {
+    margin-bottom: 16px;
+    padding: 12px 14px;
+    border-radius: 5px;
+    width: 531.2px;
+    background-color: green;
+    color: white;
+    border: 1px solid;
+
+}
