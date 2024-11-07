@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-right: 120px;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1200;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+
+nav ul,
+nav button,
+nav li {
+    display: inline-block;
+}
+
+a img {
+    margin-top: 1px;
+    margin-right: 229px;
+    margin-bottom: 17.7px;
+}
+
+nav button {
+    width: 100px;
+    height: 35px;
+    margin-left: 270px;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 41px;
+    padding-top: 8px;
+    padding-right: 17px;
+    padding-bottom: 7px;
+}
+
+nav li {
+    margin: 8 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid green;
+    padding: 20px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+section .container {
+    margin-top: 12px;
+    background: linear-gradient(97.77deg, rgba (245, 245, 245, 5.0) -23.46%, rgba(245, 245, 245, 0.5) 107.51%)
+}
+
+section .left-side {
+    display: inline-block;
+    padding: 68px 43px;
+    max-width: 50%;
+    vertical-align: top;
+}
+p{
+    font-size: 16px;
+    margin: 0;
+}
+h2 {
+    margin: 7px;
+    font-size: 70px ;
+}
+h2 span{
+    color: green;
+}
+section button{
+    width: 140px;
+    height: 40px;
+    margin-top: 44px;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 26px;
+    padding-top: 11px;
+    padding-right: 27px;
+    padding-bottom: 9px;
+}
+section .right-side {
+    display: inline-block;
+    max-width: 50%;
+}
