@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: "CeraPro", sans-serif;
+}
+
+.flex {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+
+.login {
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 41px;
+    padding-top: 8px;
+    padding-right: 17px;
+    padding-bottom: 7px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid green;
+}
+
+nav li button {
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .conteiner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-top: 12px;
+        background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+
+    }
+
+    .container-item {
+        padding: 68px 43px;
+        vertical-align: top;
+        flex-basis: 600px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    h1 {
+        margin: 7px;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h1 span {
+        color: green;
+    }
+
+    .shop {
+        width: 140px;
+        height: 40px;
+        margin-top: 44px;
+        border-radius: 6px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 26px;
+        padding-top: 11px;
+        padding-right: 27px;
+        padding-bottom: 9px;
+    }

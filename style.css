@@ -1,5 +1,5 @@
-* {
-    box-sizing: border-box;
+body {
+    font-family: "CeraPro", sans-serif;
 }
 
 header {
@@ -65,7 +65,7 @@ nav ul {
 }
 
 main {
-    text-align: center;
+    text-align: left;
     max-width: 1200px;
     margin: 0 auto;
 }
