@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    border: none;
 }
 
 body {
@@ -78,7 +80,7 @@ main {
     display: inline-block;
 }
 
-main div img {
+.foto {
     width: 250px;
     height: 250px;
 }
@@ -95,9 +97,14 @@ main li {
 .conteiner {
     display: inline-block;
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .block {
+    display: flex;
+    flex-direction: row;
     display: inline-block;
     text-align: left;
 }
@@ -110,13 +117,63 @@ main li {
     margin-top: 20px;
 }
 
-img {
+.foto {
     margin-top: 18px;
     margin-left: 4px;
     margin-right: 4px;
     margin-bottom: 32px;
+    background: rgba (251, 251, 251, 1);
 }
 
 div.block:nth-child(3n + 2) {
     margin-right: 33px;
+}
+
+.img-block {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    background: green;
+    color: white;
+    top: 14px;
+    left: 0;
+}
+
+span {
+    margin-left: 16px;
+    color: #CBCBCB;
+    text-decoration: line-through;
+}
+
+.img-wrap {
+    position: relative;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+}
+
+.card-buttons {
+    position: absolute;
+    width: 100%;
+    bottom: 7px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    opacity: 0;
+
+    button {
+        padding: 8px;
+        border-radius: 4px;
+        background: white;
+    }
+}
+.img-wrap:hover{
+    border-top: 1px solid green;
+    .card-buttons{
+        opacity: 1;
+    }
+}
+.conteiner:nth-child(1) {
+    margin-top: 31px;
 }
