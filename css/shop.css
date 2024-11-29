@@ -129,24 +129,6 @@ div.block:nth-child(3n + 2) {
     margin-right: 33px;
 }
 
-.img-block {
-    position: relative;
-}
-
-.badge {
-    position: absolute;
-    background: green;
-    color: white;
-    top: 14px;
-    left: 0;
-}
-
-span {
-    margin-left: 16px;
-    color: #CBCBCB;
-    text-decoration: line-through;
-}
-
 .img-wrap {
     position: relative;
     border-top: 1px solid transparent;
@@ -168,12 +150,33 @@ span {
         background: white;
     }
 }
-.img-wrap:hover{
+
+.img-wrap:hover {
     border-top: 1px solid green;
-    .card-buttons{
+
+    .card-buttons {
         opacity: 1;
     }
 }
-.conteiner:nth-child(1) {
+
+.img-block {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    background: green;
+    color: white;
+    top: 14px;
+    left: 0;
+}
+
+span {
+    margin-left: 16px;
+    color: #CBCBCB;
+    text-decoration: line-through;
+}
+
+.conteiner:first-child {
     margin-top: 31px;
 }

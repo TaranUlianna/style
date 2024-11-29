@@ -1,10 +1,19 @@
 * {
     box-sizing: border-box;
     font-family: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
 }
 
 body {
     font-family: "CeraPro", sans-serif;
+}
+
+nav {
+    margin-top: 30px;
 }
 
 .flex {
@@ -30,20 +39,94 @@ body {
     padding-bottom: 7px;
 }
 
-nav li {
-    display: inline-block;
-    margin: 0px 25px;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    border-bottom: 2px solid green;
+nav li a {
+    color: black;
 }
 
-nav li button {
-    border: none;
-}
-
-nav ul {
+.list1 {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+
+    >li {
+        position: relative;
+        border-bottom: 3px solid transparent;
+    }
+
+    li:hover {
+        border-bottom: 3px solid green;
+        font-weight: 700;
+
+        .list2 {
+            opacity: 1;
+            visibility: visible;
+            max-height: 300px;
+        }
+    }
+}
+
+.list2 {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    gap: 1px;
+    list-style: none;
+    min-width: 188px;
+    left: -70%;
+    margin-top: 12px;
+
+    a {
+        background: #EDF6EE;
+        display: block;
+        font-weight: lighter;
+        padding-top: 7px;
+        padding-left: 14px;
+        padding-bottom: 8px;
+
+    }
+
+    li:hover {
+        >a {
+            background-color: green;
+            color: white;
+            font-weight: 700;
+        }
+
+        .list3 {
+            opacity: 1;
+            visibility: visible;
+            max-height: 300px;
+            background-color: #EDF6EE;
+        }
+    }
+}
+
+.list3 {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    transition: 0.3s;
+    visibility: hidden;
+    max-height: 0;
+    gap: 1px;
+    list-style: none;
+    min-width: 178px;
+    left: 100%;
+    top: 0;
+
+    li:hover {
+        >a {
+            background-color: #EDF6EE;
+            color: black;
+            font-weight: lighter;
+        }
+    }
 }
 
 section {
