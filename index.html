@@ -13,11 +13,10 @@
     <header>
         <nav>
             <div class="flex">
-                <div class="flex-item"> <a href="./shop.html"><img width="150" height="34" src="./svg/Logo.svg"
-                            alt="logo">
+                <div> <a href="./shop.html"><img width="150" height="34" src="./svg/Logo.svg" alt="logo">
                     </a>
                 </div>
-                <div class="flex-item">
+                <div>
                     <ul class="list1">
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./shop.html">Shop</a></li>
@@ -41,35 +40,482 @@
                         <li><a href="./blog.html">Blogs</a></li>
                     </ul>
                 </div>
-                <div class="flex-item"> <a href="./registration.html"><img src="./img/button1.jpg" alt="button1"
-                            width="100" height="35"></a></div>
+                <div class="registr">
+                    <a href="#"><img src="./img/vector2.svg" alt="vector2" width="20" height="20"></a>
+                    <a href="#"><img src="./img/vector4.svg" alt="vector3" width="29" height="24"></a>
+                    <a href="./registration.html"><img src="./img/button1.jpg" alt="button1" width="100"
+                            height="35"></a>
+                </div>
             </div>
         </nav>
 
     </header>
-    <main>
-        <section>
-            <div class="conteiner">
-                <div class="conteiner-item">
-                    <p>
-                        Welcome to GreenShop
-                    </p>
-                    <h1><strong>LET'S MAKE A <br>
-                            BETTER <span>PLANET</span></strong></h1>
-                    <p style="color: rgb(52, 50, 50);font-size: 13px;">We are an online plant shop offering a wide range
-                        of cheap and trendy plants. Use <br> our plants to
-                        create an unique Urban Jungle. Order your favorite plants!</p>
-                    <a href="./shop.html"><button class="shop">SHOP NOW</button></a>
+    <section class="welcome">
+        <div class="conteiner">
+            <div class="conteiner-item">
+                <p>
+                    Welcome to GreenShop
+                </p>
+                <h1><strong>LET'S MAKE A <br>
+                        BETTER <span>PLANET</span></strong></h1>
+                <p style="color: rgb(52, 50, 50);font-size: 13px;">We are an online plant shop offering a wide range
+                    of cheap and trendy plants. Use <br> our plants to
+                    create an unique Urban Jungle. Order your favorite plants!</p>
+                <a href="./shop.html"><button class="shop">SHOP NOW</button></a>
+
+            </div>
+            <div class="conteiner-item">
+                <img width="507" height="450" src="./img/plant.png" alt="plant">
+            </div>
+        </div>
+    </section>
+    <div class="page">
+        <aside>
+            <div>
+                <h4>
+                    <b>Categories</b>
+                </h4>
+                <ul>
+                    <li>House Plants</li>
+                    <li>Potter Plants</li>
+                    <li>Seed</li>
+                    <li>Smal Plants</li>
+                    <li>Big Plants</li>
+                    <li>Succulents</li>
+                    <li>Trerrariums</li>
+                    <li>Gardening</li>
+                    <li>Accessories</li>
+                </ul>
+            </div>
+            <div class="price">
+                <h4> Price Range</h4>
+                <form>
+                    <input class="range" type="range" name="price" min="0" max="1800" step="39" multiple>
+                    <div>
+                        Price: <span class="green"> $39 - $1230 </span>
+                    </div>
+                    <button class="join" type="submit" name="price" id="input">Filter</button>
+                </form>
+            </div>
+            <div>
+                <h4>
+                    <b>Size</b>
+                </h4>
+                <ul>
+                    <li>Small</li>
+                    <li>Medium</li>
+                    <li>Large</li>
+                </ul>
+            </div>
+            <img src="img/SuperSaleBanner.png" alt="salebanner">
+        </aside>
+        <div class="main">
+            <nav>
+                <div class="cap">
+                    <div class="start">
+                        <ul class="list">
+                            <li>All Plants</li>
+                            <li>New Arrivals</li>
+                            <li>Sale</li>
+                        </ul>
+                    </div>
+                    <div class="end">
+                        <select name="Short" id="">
+                            <option value="">Short by: Default sorting</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <div class="box">
+                    <div class="block">
+                        <img class="foto" src="./img/image1.png" alt="daisy">
+                        <div>
+                            Barberton Daise
+                        </div>
+                        <div class="green">
+                            $119.00
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="img-wrap">
+                            <img class="foto" src="./img/product-21-320x320_1.png" alt="begonia">
+                            <div class="card-buttons">
+                                <button>
+                                    <img src="./img/shop.svg" alt="shop" width="20" height="20">
+                                </button>
+                                <button>
+                                    <img src="./img/heart.svg" alt="heart" width="20" height="20">
+                                </button>
+                                <button>
+                                    <img src="./img/frame.svg" alt="frame" width="20" height="20">
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            Angel Wing Begonia
+                        </div>
+                        <div class="green">
+                            $169.00
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="img-block">
+                            <div class="badge">
+                                13% OFF
+                            </div>
+                            <img class="foto" src="./img/image2.png" alt="violet">
+                        </div>
+
+                        <div>
+                            African Violet
+                        </div>
+                        <div class="green">
+                            $199.00 <span class="grey">$229.00</span>
+                        </div>
+                    </div>
 
                 </div>
-                <div class="conteiner-item">
-                    <img width="507" height="450" src="./img/plant.png" alt="plant">
+                <div class="box">
+                    <div class="block">
+                        <img class="foto" src="./img/013.png" alt="lily">
+                        <div>
+                            Beach Spider Lily
+                        </div>
+                        <div class="green">
+                            $129.00
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img class="foto" src="./img/image7.png" alt="blushing">
+                        <div>
+                            Blushing Bromeliad
+                        </div>
+                        <div class="green">
+                            $139.00
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img class="foto" src="./img/image8.png" alt="plant">
+                        <div>
+                            Aluminum Plant
+                        </div>
+                        <div class="green">
+                            $179.00
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="block">
+                        <img class="foto" src="./img/image9.png" alt="fem">
+                        <div>
+                            Bird's Nest Fern
+                        </div>
+                        <div class="green">
+                            $99.00
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img class="foto" src="./img/product-20-320x320_1.png" alt=" palm">
+                        <div>
+                            Broadleaf Lady Palm
+                        </div>
+                        <div class="green">
+                            $59.00
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img class="foto" src="./img/image10.png" alt="chinese">
+                        <div>
+                            Chinese Evergreen
+                        </div>
+                        <div class="green">
+                            $39.00
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-side">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>></li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+    </div>
+    <section class="page2">
+        <div class="conteiner">
+            <div class="blog">
+                <div>
+                    <img src="./img/image14.png" alt="image14" width="287" height="292">
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <h3> SUMMER CACTUS <br>
+                            & SUCCULENTS</h3>
+                    </div>
+                    <div>
+                        <h5> We are an online plant shop offering a wide <br> range of cheap and trendy plants</h5>
+                    </div>
+                    <div>
+                        <a href="./shop.html"><img src="./img/button.jpg" alt="button" width="140" height="40"></a>
+                    </div>
                 </div>
             </div>
+            <div class="blog">
+                <div>
+                    <img src="./img/image15.png" alt="image15" width="289" height="287">
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <h3> STYLING TRENDS <br>
+                            & MUSH MORE</h3>
+                    </div>
+                    <div>
+                        <h5>We are an online plant shop offering a wide <br> range of cheap and trendy plants</h5>
+                    </div>
+                    <div>
+                        <a href="./shop.html"><img src="./img/button.jpg" alt="button" width="140" height="40"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="center">
+                <h1 class="h1">Our Blog Posts</h1>
+                <h5>We are an online plant shop offering a wide range of cheap and trendy plants.</h5>
+            </div>
 
-
+            <div class="conteiner2">
+                <div class="flex2">
+                    <img src="./img/01.jpg" alt="img01" width="268" height="195.17">
+                    <div class="green">
+                        September 12 I Read in 6 minutes
+                    </div>
+                    <div>
+                        <h2> Cactus & Succulent <br>
+                            Care Tips</h2>
+                    </div>
+                    <div>
+                        <h5> Cacti are succulents are easy care <br> plants for any home or patio.</h5>
+                    </div>
+                    <div class="read">
+                        <a href="">Read More <img src="./svg/arrow-right.svg" alt="arrow-right" width="16"
+                                height="16"></a>
+                    </div>
+                </div>
+                <div class="flex2">
+                    <img src="./img/02.jpg" alt="img02" width="268" height="195.17">
+                    <div class="green">
+                        September 13 I Read in 2 minutes
+                    </div>
+                    <div>
+                        <h2>Top 10 Succulents for <br>
+                            Your Home</h2>
+                    </div>
+                    <div>
+                        <h5>Best in hanging baskets. Prefers <br> medium to high light.</h5>
+                    </div>
+                    <div class="read">
+                        <a href="">Read More <img src="./svg/arrow-right.svg" alt="arrow-right" width="16"
+                                height="16"></a>
+                    </div>
+                </div>
+                <div class="flex2">
+                    <img src="./img/03.jpg" alt="img03" width="268" height="195">
+                    <div class="green">
+                        September 15 I Read in 3 minutes
+                    </div>
+                    <div>
+                        <h2>Cacti & Succulent <br>
+                            Care Tips</h2>
+                    </div>
+                    <div>
+                        <h5>Cacti and succulents thrive in <br> containers and because most are.</h5>
+                    </div>
+                    <div class="read">
+                        <a href="">Read More <img src="./svg/arrow-right.svg" alt="arrow-right" width="16"
+                                height="16"></a>
+                    </div>
+                </div>
+                <div class="flex2">
+                    <img src="./img/04.jpg" alt="img04" width="268" height="195">
+                    <div class="green">
+                        September 15 I Read in 2 minutes
+                    </div>
+                    <div>
+                        <h2>
+                            Best Houseplants <br>
+                            Room by Room
+                        </h2>
+                    </div>
+                    <div>
+                        <h5>The benefits of houseplants are <br> endless. In addition to.</h5>
+                    </div>
+                    <div class="read">
+                        <a href="">Read More <img src="./svg/arrow-right.svg" alt="arrow-right" width="16"
+                                height="16"></a>
+                    </div>
+                </div>
+            </div>
         </section>
-    </main>
+    </section>
+    <section class="page3">
+        <div class="top">
+            <div class="top-left">
+                <div class="top-item">
+                    <img src="./svg/picture.svg" alt="picture" width="77" height="96">
+                    <h2>Garden Care</h2>
+                    <h5>We are an online plant shop offering a wide range of cheap and trendy plants.</h5>
+                </div>
+                <div class="top-item">
+                    <img src="./svg/picture(1).svg" alt="picture" width="83" height="93">
+                    <h2>Plant Renovation</h2>
+                    <h5>We are an online plant shop offering a wide range of cheap and trendy plants.</h5>
+                </div>
+                <div class="top-item">
+                    <img src="./svg/picture(2).svg" alt="picture" width="90" height="93">
+                    <h2>Watering Graden</h2>
+                    <h5>We are an online plant shop offering a wide range of cheap and trendy plants.</h5>
+                </div>
+            </div>
+            <div class="top-right">
+                <h2>
+                    Would you like to join newsletters?
+                </h2>
+                <form class="input">
+                    <input class="email" type="text" name="email" placeholder="enter your email address..." required>
+                    <button class="join" type="submit" name="register" id="input">Join</button>
+                </form>
+                <h5>We usually post offers and challenges in newsletter. We’re your online houseplant destination. We
+                    offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!
+                </h5>
+            </div>
+        </div>
+        <div class="center2">
+            <div class="center2-item">
+                <a href="./shop.html"><img width="150" height="34" src="./svg/Logo.svg" alt="logo"></a>
+            </div>
+            <div class="center2-item">
+                <img src="./svg/icon1.svg" alt="icon" width="20" height="20">
+                <h5>70 West Buckingham Ave. <br>
+                    Farmingdale, NY 11735</h5>
+            </div>
+            <div class="center2-item">
+                <img src="./svg/message.svg" alt="message" width="20" height="20">
+                <h5>contact@greenshop.com</h5>
+            </div>
+            <div class="center2-item">
+                <img src="./svg/icon.svg" alt="icon" width="20" height="20">
+                <h5>+88 01911 717 490</h5>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-left">
+                <div>
+                    <h2>
+                        My Account
+                    </h2>
+                    <ul>
+                        <li>My Account</li>
+                        <li>Our stores</li>
+                        <li>Contact us</li>
+                        <li>Career</li>
+                        <li>Specials</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        Help & Guide
+                    </h2>
+                    <ul>
+                        <li>Help Center</li>
+                        <li>How to Buy</li>
+                        <li>Shipping & Delivery</li>
+                        <li>Product Policy</li>
+                        <li>How to Return</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>
+                        Categories
+                    </h2>
+                    <ul>
+                        <li>House Plants</li>
+                        <li>Potter Plants</li>
+                        <li>Seeds</li>
+                        <li>Small Plants</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-right">
+                <div>
+                    <h2>
+                        Social Media
+                    </h2>
+                    <div>
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="31" height="31" rx="4.5" stroke="#46A358"
+                                stroke-opacity="0.2" />
+                            <path
+                                d="M14 13.3333H12V16H14V24H17.3333V16H19.7333L20 13.3333H17.3333V12.2C17.3333 11.6 17.4667 11.3333 18.0667 11.3333H20V8H17.4667C15.0667 8 14 9.06667 14 11.0667V13.3333Z"
+                                fill="#46A358" fill-opacity="0.6" />
+                        </svg>
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="31" height="31" rx="4.5" stroke="#46A358"
+                                stroke-opacity="0.2" />
+                            <path
+                                d="M16 9.46667C18.1333 9.46667 18.4 9.46667 19.2667 9.53333C21.4667 9.6 22.4667 10.6667 22.5333 12.8C22.6 13.6667 22.6 13.8667 22.6 16C22.6 18.1333 22.6 18.4 22.5333 19.2C22.4667 21.3333 21.4 22.4 19.2667 22.4667C18.4 22.5333 18.2 22.5333 16 22.5333C13.8667 22.5333 13.6 22.5333 12.8 22.4667C10.6 22.4 9.6 21.3333 9.53333 19.2C9.46667 18.3333 9.46667 18.1333 9.46667 16C9.46667 13.8667 9.46667 13.6 9.53333 12.8C9.6 10.6667 10.6667 9.6 12.8 9.53333C13.6 9.46667 13.8667 9.46667 16 9.46667ZM16 8C13.8 8 13.5333 8 12.7333 8.06667C9.8 8.2 8.2 9.8 8.06667 12.7333C8 13.5333 8 13.8 8 16C8 18.2 8 18.4667 8.06667 19.2667C8.2 22.2 9.8 23.8 12.7333 23.9333C13.5333 24 13.8 24 16 24C18.2 24 18.4667 24 19.2667 23.9333C22.2 23.8 23.8 22.2 23.9333 19.2667C24 18.4667 24 18.2 24 16C24 13.8 24 13.5333 23.9333 12.7333C23.8 9.8 22.2 8.2 19.2667 8.06667C18.4667 8 18.2 8 16 8ZM16 11.8667C13.7333 11.8667 11.8667 13.7333 11.8667 16C11.8667 18.2667 13.7333 20.1333 16 20.1333C18.2667 20.1333 20.1333 18.2667 20.1333 16C20.1333 13.7333 18.2667 11.8667 16 11.8667ZM16 18.6667C14.5333 18.6667 13.3333 17.4667 13.3333 16C13.3333 14.5333 14.5333 13.3333 16 13.3333C17.4667 13.3333 18.6667 14.5333 18.6667 16C18.6667 17.4667 17.4667 18.6667 16 18.6667ZM20.2667 10.8C19.7333 10.8 19.3333 11.2 19.3333 11.7333C19.3333 12.2667 19.7333 12.6667 20.2667 12.6667C20.8 12.6667 21.2 12.2667 21.2 11.7333C21.2 11.2 20.8 10.8 20.2667 10.8Z"
+                                fill="#46A358" fill-opacity="0.6" />
+                        </svg>
+
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="31" height="31" rx="4.5" stroke="#46A358"
+                                stroke-opacity="0.2" />
+                            <path
+                                d="M13.0319 22.0036C19.0699 22.0036 22.3718 17.0012 22.3718 12.6636C22.3718 12.5214 22.3689 12.38 22.3624 12.2392C23.0033 11.7759 23.5605 11.1976 24 10.5395C23.4118 10.8008 22.7789 10.9768 22.1149 11.0562C22.7926 10.6498 23.313 10.0067 23.5585 9.24021C22.9241 9.61636 22.2217 9.88969 21.4742 10.0371C20.8749 9.39908 20.0218 9 19.0779 9C17.2648 9 15.7946 10.4702 15.7946 12.2823C15.7946 12.54 15.8236 12.7904 15.8796 13.0308C13.1516 12.8938 10.7324 11.5874 9.11352 9.60125C8.83127 10.0862 8.66877 10.65 8.66877 11.2511C8.66877 12.3899 9.24837 13.3953 10.1297 13.9836C9.59121 13.9671 9.08531 13.8189 8.64293 13.5729C8.6422 13.5866 8.6422 13.6004 8.6422 13.6148C8.6422 15.2047 9.77392 16.532 11.2758 16.8329C11.0001 16.908 10.71 16.9484 10.4105 16.9484C10.199 16.9484 9.99338 16.9273 9.79339 16.8893C10.2112 18.1933 11.4232 19.1425 12.8601 19.1693C11.7364 20.0499 10.3209 20.5745 8.78305 20.5745C8.51827 20.5745 8.25695 20.5594 8 20.529C9.45273 21.46 11.1777 22.0036 13.0319 22.0036Z"
+                                fill="#46A358" fill-opacity="0.6" />
+                        </svg>
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="31" height="31" rx="4.5" stroke="#46A358"
+                                stroke-opacity="0.2" />
+                            <path
+                                d="M11.3333 9.66667C11.3333 10.6 10.6 11.3333 9.66667 11.3333C8.73333 11.3333 8 10.6 8 9.66667C8 8.73333 8.73333 8 9.66667 8C10.6 8 11.3333 8.73333 11.3333 9.66667ZM11.3333 12.6667H8V23.3333H11.3333V12.6667ZM16.6667 12.6667H13.3333V23.3333H16.6667V17.7333C16.6667 14.6 20.6667 14.3333 20.6667 17.7333V23.3333H24V16.6C24 11.3333 18.0667 11.5333 16.6667 14.1333V12.6667Z"
+                                fill="#46A358" fill-opacity="0.6" />
+                        </svg>
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="31" height="31" rx="4.5" stroke="#46A358"
+                                stroke-opacity="0.2" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M22.1653 13.4299L22.168 13.4306C22.168 13.4306 22.1676 13.4305 22.1667 13.4303C22.1663 13.4302 22.1658 13.4301 22.1653 13.4299ZM11.3244 13.3569C13.9176 13.1957 18.7483 13.1957 21.3415 13.3569L21.3422 13.3644C21.4047 13.9972 21.4299 14.8414 21.4299 16.0192C21.4299 17.1824 21.4053 18.0269 21.3441 18.665C18.6962 18.7703 13.9713 18.7703 11.3228 18.665C11.261 18.0332 11.236 17.1914 11.236 16.0192C11.236 14.8414 11.2612 13.9972 11.3237 13.3644L11.3244 13.3569ZM22.2422 18.6111C22.2422 18.6111 22.2405 18.6115 22.237 18.6122L22.2422 18.6111ZM10.4979 18.6077L10.5006 18.6084C10.4988 18.6079 10.4979 18.6077 10.4979 18.6077ZM7 16.0192C7 20.8412 7.38887 22.63 10.4221 22.8633C13.222 23.0189 19.4439 23.0189 22.2438 22.8633C25.277 22.7078 25.6659 20.8412 25.6659 16.0192C25.6659 11.1971 25.277 9.40832 22.2438 9.17499C19.4439 8.94167 13.222 8.94167 10.4221 9.17499C7.38887 9.40832 7 11.1971 7 16.0192ZM10.4979 13.4306C10.4979 13.4306 10.4988 13.4304 10.5007 13.4299L10.4979 13.4306ZM16.7823 17.7389C15.5039 18.3781 13.9997 17.4484 13.9997 16.0192C13.9997 14.5899 15.5039 13.6602 16.7823 14.2994C18.1994 15.008 18.1994 17.0303 16.7823 17.7389Z"
+                                fill="#46A358" fill-opacity="0.6" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        We accept
+                    </h2>
+                    <div><img src="./img/image16.png" alt="image16" width="224" height="26"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h5>© 2021 GreenShop. All Rights Reserved.</h5>
+        </footer>
+    </section>
 
 </body>
 
